@@ -4,6 +4,7 @@ heaviside:
 - Author: Leif
 - Date: 2019-03-11
 =#
+# designed to apply heaviside to each element in an array
 function heaviside(x::Array{Float64,1})
     outArray = Array{Float64, 1}(undef, length(x))
     iter = 1
